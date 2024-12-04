@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <h1 name="titulo">Estudos com Dom</h1>
+        <P>Até que não é tão difícil</P>
+        <p>Depois de praticar, o uso do DOM se torna fácil</p>
+        <div id="cliquei">Clique aqui</div>
+    </div>
+    <script>
+        var corpo = window.document.body
+        corpo.style.background = 'lightgray'
+
+        var h1 = document.getElementsByTagName('h1')
+        h1.titulo.style.background = 'lightblue'
+
+        var p1 = document.getElementsByTagName('p')[0]
+        p1.innerText = 'vapo vapo'
+
+        var nav = document.getElementById('nav')
+        nav.style.background = 'lightblue'
+
+        var clique = document.querySelector('div#cliquei')
+        cliquei.innerText = 'ué, não era pra ter um botão aqui para eu clicar?'
+    </script>
+</body>
+</html>
