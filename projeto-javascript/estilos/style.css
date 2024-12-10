@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+/*
+#383825
+#8B8A2E
+#E1DF00
+#373825
+#FFC857
+background-image: linear-gradient(to bottom, #fcf940, #d8d533, #bbb92c)
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --font-padrao:Arial, Helvetica, sans-serif;
+    --color1: (#FFD700);
+    --color2: (#8B8A2E);
+    --color3: rgb(15, 22, 27);
+    --color4: (#2B333C);
+}
+
+body{
+    background-image:linear-gradient(to right, black, #111418, #2B333C);
+}
+
+header{
+    background-image: linear-gradient(to bottom, #FFD700, #ffdc19)
+    
+}
+
+header > h1{
+    text-align: center;
+    font-size: 4em;
+    text-shadow: 2px 2px 2px #d6b600;
+    
+    
+}
+header > p{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+nav > ul > li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+    
+    
+}
+nav > ul > li:hover{
+    background-color: #2b333c85;
+    border-radius: 50px;
+}
+
+nav > ul > li > a{
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+
+}
+
+main{
+    color: white;
+    padding: 50px;
+}
+h2.temas{
+    color: white;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.384);
+    background-image:linear-gradient(to right, #FFD700, #ffd900a1, #ffd90000);
+    text-indent:15px;
+    border-radius: 20px;
+
+}
+main > article > h2{
+    font-size: 2em;
+    font: bolder;
+}
+
+strong.yellow{
+    color: #FFD700;
+    font-weight: bolder;
+    font-size: 1em;
+}
+div > p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+div > img{
+    width: 100%;
+
+}
+
+div.exemplo{
+    height: 220px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    background-image:url(../imagens/variavel-cell.png);
+    background-repeat: no-repeat;
+    background-attachment: cover;
+    background-position: center center;
+}
+
+h3{
+    font-size: 1.7em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #faba30de;
+    text-shadow: 1px 1px 1px black;
+}
+
