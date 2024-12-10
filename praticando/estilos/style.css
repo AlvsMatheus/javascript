@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /*
 #383825
 #8B8A2E
@@ -87,13 +88,29 @@ strong.yellow{
 }
 div > p{
     padding-top: 30px;
-
+    padding-bottom: 30px;
     
 }
 
-div.exemplo{
-    margin-top:20px;
-    margin-bottom: 20px;
+div > img{
+    width: 100%;
+
 }
 
+div.exemplo{
+    height: 220px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    background-image:url(../imagens/variavel-cell.png);
+    background-repeat: no-repeat;
+    background-attachment: cover;
+    background-position: center center;
+}
+
+h3{
+    font-size: 1.7em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #faba30de;
+    text-shadow: 1px 1px 1px black;
+}
 
