@@ -1,8 +1,7 @@
 @charset "UTF-8";
 
 *{
-    margin: 0px;
-    padding: 0px;
+    
     box-sizing: border-box;
 }
 
@@ -34,4 +33,12 @@ footer{
     text-align: center;
     color: white;
     font-style: italic;
+}
+
+#mas{
+    accent-color: blue;
+}
+
+#fem{
+    accent-color: rgb(255, 123, 237);
 }
