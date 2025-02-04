@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super contador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+    <section>
+                <div class="input-group">
+                    <label for="iinicio">Início:</label>
+                    <input name="inicio" id="iinicio" type="number">
+                </div>
+                <div class="input-group">
+                    <label for="ifim">fim:</label>
+                    <input name="fim" id="ifim" type="number">
+                </div>
+                
+                <div class="input-group">
+                    <label for="ipasso">passo:</label>
+                    <input name="passo" id="ipasso" type="number">
+                </div>
+
+                <input type="button" value="Contar" onclick="contar()">
+                <input type="button" value="Limpar" onclick="limpar()">
+            </div>
+            <div id="res">
+                <p>aqui aparecerá o resultado</p>
+            </div>
+       
+        
+    </section>
+    <footer>
+        <p>&copy; All reserved Matheus Alves</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
